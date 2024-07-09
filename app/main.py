@@ -76,21 +76,3 @@ class Battleship:
 
         for row in field:
             print("\t".join(row))
-
-
-if __name__ == "__main__":
-    ship_coords = [
-        ((2, 0), (2, 3)),
-        ((4, 5), (4, 6)),
-        ((3, 8), (3, 9)),
-        ((6, 0), (8, 0)),
-        ((6, 4), (6, 6)),
-        ((6, 8), (6, 9)),
-        ((9, 9), (9, 9)),
-        ((9, 5), (9, 5)),
-        ((9, 3), (9, 3)),
-        ((9, 7), (9, 7)),
-    ]
-
-    battleship = Battleship(ship_coords)
-    battleship.print_field()
